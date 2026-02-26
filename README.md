@@ -29,12 +29,20 @@ cd GeoR-Website
 bundle install
 ```
 
-3. Serve locally:
+3. Serve locally (splash page at root):
+
+**Option A - Using the provided script:**
+- **Windows**: Run `serve-local.bat`
+- **macOS/Linux**: Run `bash serve-local.sh`
+
+**Option B - Manual command:**
 ```bash
-bundle exec jekyll serve
+bundle exec jekyll serve --config _config.yml,_config_local.yml
 ```
 
-The site will be available at `http://localhost:4000/GeoR-Website/`
+The site will be available at `http://127.0.0.1:4000/`
+
+**Note:** The `_config_local.yml` file overrides the `baseurl` setting for local development, allowing you to access the site at the root URL instead of `/GeoR-Website/`.
 
 ### Making Changes
 

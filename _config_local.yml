@@ -1,0 +1,5 @@
+# Local development configuration
+# Use with: bundle exec jekyll serve --config _config.yml,_config_local.yml
+
+baseurl: ""
+url: "http://localhost:4000"
