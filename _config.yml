@@ -26,6 +26,15 @@ github_username: Geo-Ridge
 minimal_mistakes_skin: default
 search: true
 
+# Navigation
+navigation:
+  - title: "About"
+    url: "/GeoR-Website/about/"
+  - title: "Projects"
+    url: "/GeoR-Website/projects/"
+  - title: "Blog"
+    url: "/GeoR-Website/year-archive/"
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
@@ -105,10 +114,3 @@ defaults:
     values:
       layout: single
       author_profile: false
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
