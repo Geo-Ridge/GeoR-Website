@@ -11,7 +11,7 @@ GeoRidge is actively developing and maintaining a range of geospatial solutions 
 ### Featured Projects
 
 #### GeoR Website
-The home of GeoRidge's web presence, built with Jekyll and the Minimal Mistakes theme. This site serves as a hub for our documentation, projects, and community engagement.
+The home of GeoRidge's web presence, built with Jekyll. This site serves as a hub for our documentation, projects, and community engagement.
 
 **Repository**: [Geo-Ridge/GeoR-Website](https://github.com/Geo-Ridge/GeoR-Website)
 

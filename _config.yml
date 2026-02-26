@@ -26,14 +26,11 @@ github_username: Geo-Ridge
 minimal_mistakes_skin: default
 search: true
 
-# Navigation
-navigation:
-  - title: "About"
-    url: "/GeoR-Website/about/"
-  - title: "Projects"
-    url: "/GeoR-Website/projects/"
-  - title: "Blog"
-    url: "/GeoR-Website/year-archive/"
+# Pages to show in header navigation
+header_pages:
+  - _pages/about.md
+  - _pages/projects.md
+  - _pages/year-archive.md
 
 # Build settings
 markdown: kramdown
