@@ -30,7 +30,7 @@ search: true
 header_pages:
   - _pages/about.md
   - _pages/projects.md
-  - _pages/year-archive.md
+  - _pages/documents.md
 
 # Build settings
 markdown: kramdown
