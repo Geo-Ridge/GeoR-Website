@@ -42,7 +42,25 @@ paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
-  - _pages
+   - _pages
+
+# Collections for documentation
+collections:
+  docs:
+    output: true
+    permalink: /docs/:collection/:path/
+  traverse_docs:
+    output: true
+    permalink: /docs/traverse/:path/
+  mission_planner_docs:
+    output: true
+    permalink: /docs/mission-planner/:path/
+  odm_docs:
+    output: true
+    permalink: /docs/odm-frontend/:path/
+  qgis_docs:
+    output: true
+    permalink: /docs/qgis-plugins/:path/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -111,3 +129,32 @@ defaults:
     values:
       layout: single
       author_profile: false
+  # Documentation collections
+  - scope:
+      path: "_traverse_docs"
+      type: traverse_docs
+    values:
+      layout: docs
+      sidebar:
+        nav: "traverse"
+  - scope:
+      path: "_mission_planner_docs"
+      type: mission_planner_docs
+    values:
+      layout: docs
+      sidebar:
+        nav: "mission-planner"
+  - scope:
+      path: "_odm_docs"
+      type: odm_docs
+    values:
+      layout: docs
+      sidebar:
+        nav: "odm-frontend"
+  - scope:
+      path: "_qgis_docs"
+      type: qgis_docs
+    values:
+      layout: docs
+      sidebar:
+        nav: "qgis-plugins"

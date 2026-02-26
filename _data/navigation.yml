@@ -5,3 +5,52 @@ main:
     url: /projects/
   - title: "Documents"
     url: /documents/
+
+# Documentation sidebar navigation - will be auto-populated from docs
+traverse:
+  - title: "Getting Started"
+    url: /docs/traverse/
+  - title: "Installation"
+    url: /docs/traverse/installation/
+  - title: "Setup Guide"
+    url: /docs/traverse/setup/
+  - title: "User Guide"
+    url: /docs/traverse/usage/
+  - title: "API Documentation"
+    url: /docs/traverse/api/
+
+mission-planner:
+  - title: "Getting Started"
+    url: /docs/mission-planner/
+  - title: "Installation"
+    url: /docs/mission-planner/installation/
+  - title: "Setup Guide"
+    url: /docs/mission-planner/setup/
+  - title: "User Guide"
+    url: /docs/mission-planner/usage/
+  - title: "Features"
+    url: /docs/mission-planner/features/
+
+odm-frontend:
+  - title: "Getting Started"
+    url: /docs/odm-frontend/
+  - title: "Installation"
+    url: /docs/odm-frontend/installation/
+  - title: "Setup Guide"
+    url: /docs/odm-frontend/setup/
+  - title: "User Guide"
+    url: /docs/odm-frontend/usage/
+  - title: "Features"
+    url: /docs/odm-frontend/features/
+
+qgis-plugins:
+  - title: "Getting Started"
+    url: /docs/qgis-plugins/
+  - title: "Installation"
+    url: /docs/qgis-plugins/installation/
+  - title: "Available Plugins"
+    url: /docs/qgis-plugins/plugins/
+  - title: "User Guide"
+    url: /docs/qgis-plugins/usage/
+  - title: "Development"
+    url: /docs/qgis-plugins/development/
