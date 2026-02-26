@@ -1,7 +1,57 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
+layout: splash
+permalink: /
+header:
+  overlay_color: "#1a1a1a"
+  overlay_image: /GeoR-Website/assets/images/splash-background.jpg
+  overlay_filter: "rgba(0, 0, 0, 0.5)"
+  caption: "Advanced Geospatial Technology Solutions"
+excerpt: "<strong>Welcome to GeoRidge</strong><br/>Exploring terrain, mapping ideas, building things<br/><small>Enterprise geospatial solutions for the modern world</small>"
+intro: 
+  - excerpt: "Pioneering geospatial technology and spatial intelligence solutions for organizations worldwide."
+feature_row:
+  - image_path: /GeoR-Website/assets/images/feature-mapping.jpg
+    alt: "Advanced Mapping"
+    title: "Advanced Mapping Solutions"
+    excerpt: "Enterprise-grade mapping and visualization tools designed for complex geospatial analysis and decision-making."
+    url: "/GeoR-Website/about/"
+    btn_label: "Explore Solutions"
+    btn_class: "btn--primary"
+  - image_path: /GeoR-Website/assets/images/feature-analysis.jpg
+    alt: "Spatial Analysis"
+    title: "Spatial Intelligence"
+    excerpt: "Harness the power of geographic data with our advanced analytics and spatial intelligence platform."
+    url: "/GeoR-Website/about/"
+    btn_label: "Learn More"
+    btn_class: "btn--primary"
+  - image_path: /GeoR-Website/assets/images/feature-integration.jpg
+    alt: "Integration"
+    title: "Seamless Integration"
+    excerpt: "Integrate geospatial capabilities into your existing systems and workflows with our APIs and SDKs."
+    url: "/GeoR-Website/about/"
+    btn_label: "Get Started"
+    btn_class: "btn--primary"
+
+gallery:
+  - url: /GeoR-Website/assets/images/feature-mapping.jpg
+    image_path: /GeoR-Website/assets/images/feature-mapping.jpg
+    alt: "Mapping Solutions"
+  - url: /GeoR-Website/assets/images/feature-analysis.jpg
+    image_path: /GeoR-Website/assets/images/feature-analysis.jpg
+    alt: "Spatial Analysis"
+  - url: /GeoR-Website/assets/images/feature-integration.jpg
+    image_path: /GeoR-Website/assets/images/feature-integration.jpg
+    alt: "Integration Services"
+
+call_to_action: true
+call_to_action_text: "Ready to transform your geographic data into actionable insights?"
+call_to_action_button_text: "Contact Us"
+call_to_action_button_url: "mailto:contact@geo-ridge.com"
 ---
+
+{% include feature_row %}
+
+<div style="text-align: center; margin: 3em 0;">
+  <h2>Our Expertise</h2>
+  <p>GeoRidge specializes in cutting-edge geospatial technology, data analytics, and spatial intelligence solutions for enterprise clients.</p>
+</div>

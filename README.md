@@ -1,27 +1,66 @@
-# Minimal Mistakes remote theme starter
+# GeoRidge Website
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+Welcome to the official website repository for **GeoRidge** - a leading geospatial technology company specializing in innovative mapping solutions, geographic data analysis, and spatial intelligence tools.
 
-Contains basic configuration to get you a site with:
+## About This Site
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+This is a Jekyll-based website built with the [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) theme, deployed via GitHub Pages at [https://geo-ridge.github.io/GeoR-Website/](https://geo-ridge.github.io/GeoR-Website/).
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+## Site Structure
+
+- **`index.html`** - Splash page with company overview and feature highlights
+- **`_pages/about.md`** - About GeoRidge, our mission, and services
+- **`_pages/projects.md`** - Featured projects and solutions
+- **`_config.yml`** - Site configuration and metadata
+- **`assets/images/`** - Images and visual assets
+
+## Getting Started
+
+### Local Development
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Geo-Ridge/GeoR-Website.git
+cd GeoR-Website
+```
+
+2. Install dependencies:
+```bash
+bundle install
+```
+
+3. Serve locally:
+```bash
+bundle exec jekyll serve
+```
+
+The site will be available at `http://localhost:4000/GeoR-Website/`
+
+### Making Changes
+
+- Update content in `_pages/` for existing pages
+- Create new blog posts in `_posts/` with the format: `YYYY-MM-DD-title.md`
+- Update site-wide configuration in `_config.yml`
+- Add images to `assets/images/`
+
+## Deploying
+
+Changes pushed to the `main` or `master` branch will automatically deploy via GitHub Pages.
+
+## Customization
+
+To customize the site further:
+1. Refer to the [Minimal Mistakes documentation](https://mmistakes.github.io/minimal-mistakes/docs/configuration/)
+2. Update `_config.yml` with your preferences
+3. Add custom CSS to `assets/css/`
+4. Add custom JavaScript to `assets/js/`
+
+## Contact
+
+For questions about the website or GeoRidge:
+- **Email**: contact@geo-ridge.com
+- **GitHub**: [Geo-Ridge](https://github.com/Geo-Ridge/)
 
 ---
 
-## Troubleshooting
-
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
-
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+**Built with** [Jekyll](https://jekyllrb.com/) and [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes)
