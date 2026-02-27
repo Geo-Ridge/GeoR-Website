@@ -95,7 +95,7 @@ author:
       url: "https://github.com/Geo-Ridge/"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:contact@geo-ridge.com"
+      url: "mailto:GeoRidge@protonmail.com"
 
 footer:
   links:
@@ -104,7 +104,7 @@ footer:
       url: "https://github.com/Geo-Ridge/"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:contact@geo-ridge.com"
+      url: "mailto:GeoRidge@protonmail.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/company/geo-ridge/"
