@@ -20,8 +20,6 @@ Enterprise-grade mapping and visualization platforms that enable you to explore 
 #### Spatial Intelligence & Analytics
 Harness the power of geographic data analysis. Our advanced analytics engine helps you uncover patterns, trends, and insights hidden within your spatial data.
 
-#### API & Integration Services
-Seamlessly integrate geospatial capabilities into your existing systems. Our comprehensive APIs and SDKs make it simple to add mapping and spatial analysis to your applications.
 
 #### Data Management & Processing
 Manage vast quantities of geographic data efficiently. Our robust data pipeline handles everything from ingestion to processing, transformation, and analysis.

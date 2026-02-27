@@ -1,0 +1,50 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+:root {
+  --color-primary: #1A365D;
+  --color-action: #00B4D8;
+  --color-secondary-text: #718096;
+  --color-background: #F7FAFC;
+  --color-highlight: #4FD1C5;
+  
+  --color-text-primary: #1A202C;
+  --color-text-secondary: #718096;
+  --color-border: #CBD5E0;
+  --color-link: #00B4D8;
+  --color-link-hover: #1A365D;
+  --color-bg-primary: #F7FAFC;
+  --color-bg-secondary: #F8FAFC;
+  --color-bg-hover: #E2E8F0;
+  --color-bg-code: #1A202C;
+  --color-bg-footer: #2E3A40;
+}
+
+.page__footer {
+  background-color: var(--color-bg-footer) !important;
+  color: #C6D3D8 !important;
+}
+
+.page__footer a {
+  color: #C6D3D8 !important;
+}
+
+.page__footer a:hover {
+  color: #2FE0DC !important;
+}
+
+.page__footer .page__footer-follow .social-icons .fab,
+.page__footer .page__footer-follow .social-icons .fas,
+.page__footer .page__footer-follow .social-icons .far {
+  color: #C6D3D8 !important;
+}
+
+.page__footer .page__footer-follow .social-icons .fab:hover,
+.page__footer .page__footer-follow .social-icons .fas:hover,
+.page__footer .page__footer-follow .social-icons .far:hover {
+  color: #2FE0DC !important;
+}

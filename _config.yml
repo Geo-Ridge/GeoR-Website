@@ -23,7 +23,7 @@ baseurl: "/GeoR-Website"
 url: "https://geo-ridge.github.io"
 twitter_username: georidge
 github_username: Geo-Ridge
-minimal_mistakes_skin: default
+minimal_mistakes_skin: georidge
 search: true
 
 # Pages to show in header navigation
@@ -131,27 +131,27 @@ defaults:
       path: "_traverse_docs"
       type: traverse_docs
     values:
-      layout: docs
+      layout: single
       sidebar:
         nav: "traverse"
   - scope:
       path: "_mission_planner_docs"
       type: mission_planner_docs
     values:
-      layout: docs
+      layout: single
       sidebar:
         nav: "mission-planner"
   - scope:
       path: "_odm_docs"
       type: odm_docs
     values:
-      layout: docs
+      layout: single
       sidebar:
         nav: "odm-frontend"
   - scope:
       path: "_qgis_docs"
       type: qgis_docs
     values:
-      layout: docs
+      layout: single
       sidebar:
         nav: "qgis-plugins"

@@ -10,19 +10,6 @@ GeoRidge is actively developing and maintaining a range of geospatial solutions 
 
 ### Featured Projects
 
-#### GeoR Website
-The home of GeoRidge's web presence, built with Jekyll. This site serves as a hub for our documentation, projects, and community engagement.
-
-**Repository**: [Geo-Ridge/GeoR-Website](https://github.com/Geo-Ridge/GeoR-Website)
-
----
-
-#### QGIS Plugins
-Custom QGIS plugins developed by GeoRidge to extend the functionality of QGIS for specialized geospatial workflows and analysis tasks.
-
-**Repository**: [Geo-Ridge/qgis-plugins](https://github.com/Geo-Ridge/qgis-plugins)
-
----
 
 #### GeoR Traverse
 A comprehensive surveying and traversal application for collecting and processing geospatial field data with high precision. Perfect for surveying projects, boundary mapping, and field verification.

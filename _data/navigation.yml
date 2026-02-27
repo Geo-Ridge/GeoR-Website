@@ -10,14 +10,10 @@ main:
 traverse:
   - title: "Getting Started"
     url: /docs/traverse/
-  - title: "Installation"
-    url: /docs/traverse/installation/
   - title: "Setup Guide"
     url: /docs/traverse/setup/
   - title: "User Guide"
     url: /docs/traverse/usage/
-  - title: "API Documentation"
-    url: /docs/traverse/api/
 
 mission-planner:
   - title: "Getting Started"
