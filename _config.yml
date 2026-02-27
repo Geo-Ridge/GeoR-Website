@@ -25,6 +25,8 @@ twitter_username: georidge
 github_username: Geo-Ridge
 minimal_mistakes_skin: georidge
 search: true
+logo: "/assets/images/georidge-logo-light.svg"
+masthead_title: false
 
 # Pages to show in header navigation
 header_pages:
