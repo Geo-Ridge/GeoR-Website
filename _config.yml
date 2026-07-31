@@ -19,8 +19,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   GeoRidge is a leading geospatial technology company specializing in innovative
   mapping solutions, geographic data analysis, and spatial intelligence tools
   for enterprise clients and organizations worldwide.
-baseurl: "/GeoR-Website"
-url: "https://geo-ridge.github.io"
+baseurl: ""
+url: "https://georidge.org"
 twitter_username: georidge
 github_username: Geo-Ridge
 minimal_mistakes_skin: georidge
@@ -89,7 +89,7 @@ author:
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://geo-ridge.github.io/GeoR-Website/"
+      url: "https://georidge.org/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Geo-Ridge/"
